@@ -1,7 +1,7 @@
-install miniconda  
+install miniconda / anaconda
 install R, add R to path "C:\Program Files\R\R-4.3.0\bin\x64\"
 
-create new env  
+create new env (named DataScience)
 
 ``` shell
 conda config --add channels conda-forge   
@@ -24,3 +24,6 @@ IRkernel::installspec()
 
 create requirments.txt
 `pip list --format=freeze > requirements.txt` in conda env
+
+# Datenaufbereitung
+Führe `iso3166_to_countryName.py` aus damit aus dem Ländercode der Ländername erzeugt werden kann, wird im JupyterNotebook benötigt.
